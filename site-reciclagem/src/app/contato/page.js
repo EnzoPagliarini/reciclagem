@@ -3,15 +3,18 @@ export default function ContatoPage() {
     <section className="conteudo">
       <h2>Entre em Contato</h2>
       <form>
-        <label>Nome:</label>
+        <label>Nome: </label>
         <input type="text" required />
-
-        <label>Email:</label>
+        <br/>
+        <br/>
+        <label>Email: </label>
         <input type="email" required />
-
-        <label>Mensagem:</label>
+        <br/>
+        <br/>
+        <label>Mensagem: <br/></label>
         <textarea rows="4"></textarea>
-
+        <br/>
+        <br/>
         <button type="submit">Enviar</button>
       </form>
     </section>

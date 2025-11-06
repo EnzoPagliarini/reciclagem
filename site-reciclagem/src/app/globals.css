@@ -78,3 +78,7 @@ ul.custom li::before {
     gap: 10px;
   }
 }
+
+.leftAlign {
+  text-align: left;
+}

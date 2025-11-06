@@ -1,4 +1,3 @@
-// app/layout.js
 import './globals.css'
 import Link from 'next/link'
 
@@ -26,6 +25,7 @@ export default function RootLayout({ children }) {
 
         <footer className="footer">
           <p>Desenvolvido por Enzo Pagliarini, João Vitor, Alex Cardoso e Guilherme</p>
+          <p className="slogan">Cuide do planeta, recicle hoje para viver amanhã.</p>
         </footer>
       </body>
     </html>

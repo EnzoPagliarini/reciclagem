@@ -1,19 +1,9 @@
+
 .page {
-  --background: #fafafa;
-  --foreground: #fff;
-
-  --text-primary: #000;
-  --text-secondary: #666;
-
-  --button-primary-hover: #383838;
-  --button-secondary-hover: #f2f2f2;
-  --button-secondary-border: #ebebeb;
-
   display: flex;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-geist-sans);
   background-color: var(--background);
 }
 
@@ -52,12 +42,10 @@
   font-size: 18px;
   line-height: 32px;
   text-wrap: balance;
-  color: var(--text-secondary);
 }
 
 .intro a {
   font-weight: 500;
-  color: var(--text-primary);
 }
 
 .ctas {
@@ -78,7 +66,6 @@
   border-radius: 128px;
   border: 1px solid transparent;
   transition: 0.2s;
-  cursor: pointer;
   width: fit-content;
   font-weight: 500;
 }
@@ -93,7 +80,6 @@ a.secondary {
   border-color: var(--button-secondary-border);
 }
 
-/* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
     background: var(--button-primary-hover);
@@ -122,20 +108,18 @@ a.secondary {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .logo {
-    filter: invert();
-  }
+.formulario .campos {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
 
-  .page {
-    --background: #000;
-    --foreground: #000;
+.coluna {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
 
-    --text-primary: #ededed;
-    --text-secondary: #999;
-
-    --button-primary-hover: #ccc;
-    --button-secondary-hover: #1a1a1a;
-    --button-secondary-border: #1a1a1a;
-  }
+textarea {
+  width: 100%;
 }
