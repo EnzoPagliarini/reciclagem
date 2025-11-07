@@ -27,7 +27,7 @@ export default function HomePage() {
   }
 
   return (
-    <section className="conteudo" style={{ textAlign: "center", marginTop: 40 }}>
+    <section className="conteudo" style={{ textAlign: "left", marginTop: 40 }}>
       <h2>Por que descartar corretamente?</h2>
       <p>O descarte correto do lixo eletrônico é essencial para proteger o meio ambiente e a saúde humana. Equipamentos como celulares, computadores, pilhas, baterias e televisores contêm substâncias químicas e metais pesados — como chumbo, mercúrio e cádmio — que, quando descartados de forma inadequada, podem causar sérios danos ambientais e comprometer a qualidade de vida das pessoas.</p>
 
@@ -57,7 +57,7 @@ export default function HomePage() {
         <li><b>Evite jogar no lixo comum:</b> o lixo eletrônico requer tratamento especial para que seus componentes sejam reciclados ou descartados de forma segura.</li>
       </ol>
 
-      <div style={{ marginTop: 40 }}>
+      <div style={{ textAlign: "center", marginTop: 40 }}>
         <h3>♻️ Jogo: Descarte Certo</h3>
         <p>Arraste os itens para as lixeiras corretas.</p>
 

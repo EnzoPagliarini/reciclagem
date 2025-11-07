@@ -2,7 +2,7 @@ export default function DescartePage() {
   return (
     <section className="conteudo">
       <h2>Descarte Correto do Lixo Eletrônico: Por Que É Tão Importante?</h2>
-      <p>Você já parou para pensar o que fazer com aquele celular velho, o carregador quebrado ou o computador que não funciona mais? Esses itens fazem parte do que chamamos de e-lixo (lixo eletrônico) e precisam ser descartados da forma certa.</p>
+      <p>Você já parou para pensar o que fazer com aquele celular velho, o carregador quebrado ou o computador que não funciona mais?<br/> Esses itens fazem parte do que chamamos de e-lixo (lixo eletrônico) e precisam ser descartados da forma certa.</p>
       <h2>O Que é Lixo Eletrônico?</h2>
       <p>É todo equipamento eletrônico que não tem mais utilidade ou está quebrado, como:</p>
       <ul className="custom">
@@ -22,11 +22,11 @@ export default function DescartePage() {
         <p>Ao enviar os eletrônicos para os lugares certos, eles podem ser consertados, reaproveitados ou reciclados, o que ajuda a economizar recursos naturais e energéticos.</p>
       </ul>
       <h2>Como Fazer o Descarte Correto?</h2>
-      <ul>
-        <ol>Leve os aparelhos a pontos de coleta de lixo eletrônico. Muitas lojas de eletrônicos, supermercados e prefeituras oferecem esse serviço.</ol>
-        <ol>Participe de campanhas de recolhimento promovidas por escolas, empresas ou ONGs.</ol>
-        <ol>Nunca jogue lixo eletrônico no lixo comum.</ol>
-      </ul>
+      <p>
+        Leve os aparelhos a pontos de coleta de lixo eletrônico. Muitas lojas de eletrônicos, supermercados e prefeituras oferecem esse serviço.<br/>
+        Participe de campanhas de recolhimento promovidas por escolas, empresas ou ONGs.<br/>
+        Nunca jogue lixo eletrônico no lixo comum.</p>
+      
       <p><b>Cuidar do descarte correto do lixo eletrônico é uma atitude simples, mas que faz uma grande diferença para o planeta e para a nossa saúde. Faça sua parte!</b></p>
     </section>
   )
